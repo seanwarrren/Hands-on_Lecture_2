@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class pascal_triangle {
-    public List<List<Integer>> pascalTriangle(int numRows) {
+    public static List<List<Integer>> pascalTriangle(int numRows) {
         // initialize the triangle list to store the result
         List<List<Integer>> triangle = new ArrayList<>();
 
@@ -23,5 +23,13 @@ public class pascal_triangle {
             triangle.add(row);
         }
         return triangle;
+    }
+
+    public static void main(String[] args) {
+        // test the function
+        int val = 5;
+        for (int i = 0; i <= val; i++) {
+            System.out.println(pascalTriangle(i));
+        }
     }
 }
