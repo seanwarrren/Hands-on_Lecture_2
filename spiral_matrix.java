@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class spiral_matrix {
-    public static List<Integer> spiralMatrix(int[][] matrix) {
+    public List<Integer> spiralMatrix(int[][] matrix) {
         List<Integer> result = new ArrayList<>();
 
         // represent the boundaries of the matrix
@@ -42,17 +42,5 @@ public class spiral_matrix {
             }
         }
         return result; // return the matrix in spiral order
-    }
-
-    public static void main(String[] args) {
-        int[][] matrix1 = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
-        int[][] matrix2 = {{1, 2, 3, 4}, {5, 6, 7, 8}, {9, 10, 11, 12}, {13, 14, 15, 16}};
-        int[][] matrix3 = {{1, 2, 3, 4}, {5, 6, 7, 8}, {9, 10, 11, 12}};
-        int[][] matrix4 = {{1}};
-
-        System.out.println(spiralMatrix(matrix1));
-        System.out.println(spiralMatrix(matrix2));
-        System.out.println(spiralMatrix(matrix3));
-        System.out.println(spiralMatrix(matrix4));
     }
 }
