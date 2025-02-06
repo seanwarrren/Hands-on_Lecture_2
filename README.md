@@ -9,8 +9,3 @@ Spiral Matrix:
     This code takes in a 2D matrix and returns the elements of the matrix in a spiral order. 
     It uses a nested loop to iterate through the matrix and returns the elements in a spiral order.
 
-Driver for test cases:
-    This code is a driver for test cases. 
-    It takes in a number of rows and returns the Pascal's triangle of that number of rows. 
-    It also takes in a 2D matrix and returns the elements of the matrix in a spiral order.
-
